@@ -13,6 +13,13 @@ attr_accessor :name
 
   def appointment
     @appointment
+  end
+
+  def doctors
+    self.appointment.collect do |patient|
+      appointment.patient
+
+    end
 
   end
 end
