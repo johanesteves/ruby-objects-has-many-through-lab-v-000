@@ -15,7 +15,7 @@ attr_accessor :name
     @songs
   end
 
-  def generes
+  def genres
     self.songs.collect do |song|
       song.genre
     end
