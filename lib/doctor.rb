@@ -3,7 +3,16 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-    @appointment = []
+    @appointments = []
+
+  end
+
+  def add_appointment(appointment)
+
+  end
+
+  def appointments
+    @appointments
 
   end
 end
