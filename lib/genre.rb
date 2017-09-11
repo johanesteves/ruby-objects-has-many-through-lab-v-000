@@ -9,4 +9,9 @@ attr_accessor :name, :songs
   def add_song(song)
     self.songs << song
   end
+
+  def songs
+    @songs
+
+  end
 end
