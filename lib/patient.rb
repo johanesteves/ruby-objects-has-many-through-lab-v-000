@@ -11,7 +11,7 @@ attr_accessor :name
     appointment.patient = self
   end
 
-  def appointment
+  def appointments
     @appointment
   end
 
